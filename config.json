@@ -1,0 +1,48 @@
+{
+    "projectRoot": "",
+    "nthreads": 10,
+    "date": "",
+    "timezone": "America/New_York",
+    "promptDirectory": "podcaster/writer/prompts",
+    "numberHosts": 2,
+    "hostsPersonas": [
+        {
+            "name": "Brian",
+            "voice": "D",
+            "persona": "He is a politics with 20+ years of experience. He's very sharp at asking questions."
+        },
+        {
+            "name": "Amanda",
+            "voice": "O",
+            "persona": "She is an economist with top-tier publications. She is very knowledgeadble and explains everything very clearly."
+        }
+    ],
+    "aws_region": "us-east-1",
+    "topic_thresholds": {
+        "latest": 0.40,
+        "politics": 0,
+        "technology": 0.35,
+        "economics": 0.35,
+        "world": 0.35,
+        "crypto": 0.35
+    },
+    "interests": [
+        "political updates",
+        "technological advancements",
+        "stock market",
+        "political elections",
+        "artificial intelligence and machine learning developments",
+        "tech innovations",
+        "industry trends"
+    ],
+    "secretKeys": {
+        "googleApiKey": "your-google-api-key",
+        "awsKey": "your-aws-key-here"
+    },
+    "sections": {
+        "start": "This is the start of the podcast, so include the greetings for the \"Daily Podcast\" but not the goodbyes",
+        "middle": "This is only for a portion of the podcast, so do not include greetings and goodbyes",
+        "end": "This is the last portion of the podcast, so do not include the welcome greetings but include the goodbyes"
+    },
+    "songPath": "podcaster/assets/background_music.mp3"
+}
